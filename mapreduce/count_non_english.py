@@ -2,7 +2,7 @@ from mrjob.job import MRJob
 from spellchecker import SpellChecker
 import re
 
-# Initialize SpellChecker (this uses a built-in English dictionary)
+
 spell = SpellChecker()
 WORD_RE = re.compile(r"\b\w+\b")
 
